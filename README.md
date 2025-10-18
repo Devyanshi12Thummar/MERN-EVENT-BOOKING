@@ -29,25 +29,28 @@ This app allows users to browse, view details, and book events seamlessly, with 
 
 mern-event-booking/
 ├── backend/
-│ ├── config/ # DB connection and environment setup
-│ ├── controllers/ # Logic for event & booking routes
-│ ├── models/ # Mongoose schemas (Event, Booking)
-│ ├── routes/ # Express route definitions
-│ ├── server.js # Main server entry point
-│ ├── .env # Environment variables (DO NOT COMMIT)
-│ └── package.json
+│   ├── config/             # DB connection and environment setup
+│   ├── controllers/        # Logic for event & booking routes
+│   ├── models/             # Mongoose schemas (Event, Booking)
+│   ├── routes/             # Express route definitions
+│   ├── server.js           # Main server entry point
+│   ├── .env                # Environment variables (DO NOT COMMIT)
+│   └── package.json        # Backend dependencies and scripts
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Event list, event details, booking form
-│ │ ├── services/ # API calls (Axios)
-│ │ └── App.js
-│ ├── public/
-│ └── package.json
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Event list, event details, booking form
+│   │   ├── services/       # API calls (Axios)
+│   │   └── App.js
+│   │
+│   ├── public/
+│   └── package.json        # Frontend dependencies and scripts
 │
-├── .gitignore
-├── README.md
+├── .gitignore              # Git ignored files
+├── README.md               # Project documentation
+└── setup_repo.sh           # Repo setup and initialization script
+
 
 1️⃣ Clone the repository
 ```bash
