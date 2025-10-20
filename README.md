@@ -82,12 +82,13 @@ Example:
 
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/mern-event-booking
-SMTP_HOST=smtp.example.com
-SMTP_PORT=587
-SMTP_SECURE=false
-SMTP_USER=your_smtp_user
-SMTP_PASS=your_smtp_pass
-MAIL_FROM="Event Booker <no-reply@example.com>"
+SMTP_HOST=smtp.gmail.com 
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_USER=devanshithummar123@gmail.com
+SMTP_PASS=qlqiloqaehtavcxq
+MAIL_FROM="event Author <devanshithummar123@gmail.com>"
+
 
 
 ## Installation and Running
