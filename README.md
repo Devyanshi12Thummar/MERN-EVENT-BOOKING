@@ -81,7 +81,9 @@ Create backend/.env (already present in this repo, update values to your own). R
 Example:
 
 PORT=5000
+
 MONGO_URI=mongodb://127.0.0.1:27017/mern-event-booking
+
 SMTP_HOST=smtp.gmail.com 
 SMTP_PORT=465
 SMTP_SECURE=true
