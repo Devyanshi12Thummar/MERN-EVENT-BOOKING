@@ -96,8 +96,6 @@ SMTP_PASS=qlqiloqaehtavcxq
 
 MAIL_FROM="event Author <devanshithummar123@gmail.com>"
 
-
-
 ## Installation and Running
 
 Open two terminals: one for backend, one for frontend.
